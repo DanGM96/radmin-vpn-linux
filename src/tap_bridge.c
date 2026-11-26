@@ -24,6 +24,9 @@
 
 #define _GNU_SOURCE
 
+/* Workflow test only: changes the tap_bridge hash. */
+static const char repro_test_marker[] __attribute__((used)) = "repro-test";
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
